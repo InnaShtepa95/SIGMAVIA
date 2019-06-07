@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84b37ab5-fbe7-48ce-a702-3372dc436381" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1514501399">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="2" />
+          <entry key="scss" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="2" />
+          <entry key="SCSS" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="73" />
+          <entry key="scss" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="73" />
+          <entry key="SCSS" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-556059358">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="60" />
+          <entry key="html" value="42" />
+          <entry key="js" value="71" />
+          <entry key="scss" value="24" />
+          <entry key="svg" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="60" />
+          <entry key="HTML" value="42" />
+          <entry key="JavaScript" value="71" />
+          <entry key="SCSS" value="24" />
+          <entry key="SVG" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="138" />
+          <entry key="html" value="7709" />
+          <entry key="js" value="921" />
+          <entry key="scss" value="7899" />
+          <entry key="svg" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="138" />
+          <entry key="HTML" value="7709" />
+          <entry key="JavaScript" value="921" />
+          <entry key="SCSS" value="7899" />
+          <entry key="SVG" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="e#310#3651#0" />
+                <element signature="e#3660#8077#0" />
+                <element signature="e#8092#9579#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts_vars.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/fonts_vars.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#409#809#0" />
+                <element signature="e#822#1182#0" />
+                <element signature="e#1195#1587#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animation.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/animation.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>quick-links</find>
+      <find>text-deco</find>
+      <find>181817</find>
+      <find>text-wh</find>
+      <find>text-secondary</find>
+      <find>form-grou</find>
+      <find>but</find>
+      <find>text</find>
+      <find>yello</find>
+      <find>warni</find>
+      <find>border-d</find>
+      <find>transp</find>
+      <find />
+      <find>ms-expand</find>
+      <find>bg</find>
+      <find />
+      <find>.border-0</find>
+      <find>btn</find>
+      <find>box-shadow</find>
+      <find />
+      <find />
+      <find />
+      <find>view</find>
+      <find>viewb</find>
+      <find>display-1</find>
+      <find>py-5</find>
+      <find>wow</find>
+      <find>fadeinle</find>
+      <find>scrol</find>
+      <find>mr-5</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>warning</replace>
+      <replace>w-100</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="E:/Эффекты/AnimatedFrameSlideshow/AnimatedFrameSlideshow/js/demo1.js" />
+        <option value="E:/Эффекты/AnimatedFrameSlideshow/AnimatedFrameSlideshow/css/base.css" />
+        <option value="E:/Эффекты/AnimatedFrameSlideshow/AnimatedFrameSlideshow/index.html" />
+        <option value="E:/Эффекты/AnimatedFrameSlideshow — копия/AnimatedFrameSlideshow/pater/pater.css" />
+        <option value="E:/Эффекты/AnimatedFrameSlideshow — копия/AnimatedFrameSlideshow/index.html" />
+        <option value="E:/Эффекты/AnimatedFrameSlideshow — копия/AnimatedFrameSlideshow/css/base.css" />
+        <option value="$PROJECT_DIR$/js/demo1.js" />
+        <option value="$PROJECT_DIR$/PoppinsExtraBold.css" />
+        <option value="$PROJECT_DIR$/PoppinsBold.css" />
+        <option value="$PROJECT_DIR$/PoppinsSemiBold.css" />
+        <option value="$PROJECT_DIR$/js/slider.js" />
+        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
+        <option value="D:/Downloads/pahu-master/pahu-master/index.html" />
+        <option value="D:/Downloads/PAHU-master (6)/PAHU-master/index.html" />
+        <option value="$PROJECT_DIR$/PAHU gall.html" />
+        <option value="$PROJECT_DIR$/PAHU gall.css" />
+        <option value="D:/Downloads/Bootstrap FREE template/site/index.html" />
+        <option value="E:/Lucid/css/style.scss" />
+        <option value="E:/team_project/index.html" />
+        <option value="E:/Эффекты/Слайдер (2)/index.html" />
+        <option value="E:/Эффекты/coolcarousel/jquery.carouFredSel-6.1.0-packed.js" />
+        <option value="E:/Эффекты/coolcarousel/coolcarousel.html" />
+        <option value="C:/Temp/Rar$DRa0.882/Bootstrap_PAHU-master/index.html" />
+        <option value="E:/Эффекты/Слайдер (2)/css/style.css" />
+        <option value="D:/LemonSchool/home/Creativa/css/style.scss" />
+        <option value="D:/LemonSchool/home/owl-lesson/js/script.js" />
+        <option value="D:/LemonSchool/home/owl-lesson/css/style.css" />
+        <option value="D:/LemonSchool/home/Roll over effects/css/style.scss" />
+        <option value="E:/Personal_Blog_Template/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+        <option value="E:/Эффекты/viewer-master/viewer-master/docs/index.html" />
+        <option value="$PROJECT_DIR$/js/owl.carousel.js" />
+        <option value="$PROJECT_DIR$/js/scrollflow.js" />
+        <option value="$PROJECT_DIR$/js/owl.js" />
+        <option value="$PROJECT_DIR$/css/icomoon.css" />
+        <option value="E:/Эффекты/form/index.html" />
+        <option value="E:/Эффекты/ui-box/js/index.js" />
+        <option value="E:/Эффекты/ui-box/index.html" />
+        <option value="E:/Эффекты/ui-box/css/style.css" />
+        <option value="E:/Эффекты/cool-text-effect/css/style.css" />
+        <option value="D:/LemonSchool/home/Creativa/index.html" />
+        <option value="D:/LemonSchool/home/Luis Oenrique/index.html" />
+        <option value="D:/Downloads/akad-master (2)/akad-master/index.html" />
+        <option value="$PROJECT_DIR$/css/animation.scss" />
+        <option value="$PROJECT_DIR$/css/fonts_vars.scss" />
+        <option value="C:/Temp/Rar$DIa0.508/wow.min.js" />
+        <option value="E:/src/WOW.js/index.html" />
+        <option value="$PROJECT_DIR$/css/animate.css" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/js/wow.min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-30" />
+    <option name="y" value="115" />
+    <option name="width" value="1235" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PAHU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PAHU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_4" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PAHU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_4" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84b37ab5-fbe7-48ce-a702-3372dc436381" name="Default Changelist" comment="" />
+      <created>1556802808884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556802808884</updated>
+      <workItem from="1556802810308" duration="1562000" />
+      <workItem from="1556804816345" duration="4316000" />
+      <workItem from="1556820827321" duration="4941000" />
+      <workItem from="1556866615994" duration="22665000" />
+      <workItem from="1556896388631" duration="25170000" />
+      <workItem from="1556954726970" duration="6059000" />
+      <workItem from="1556961164907" duration="1617000" />
+      <workItem from="1556989362172" duration="504000" />
+      <workItem from="1557124133601" duration="22970000" />
+      <workItem from="1557159884196" duration="16844000" />
+      <workItem from="1557214112703" duration="17085000" />
+      <workItem from="1557247146377" duration="15492000" />
+      <workItem from="1557300017276" duration="27821000" />
+      <workItem from="1557345742818" duration="330000" />
+      <workItem from="1557501660634" duration="4946000" />
+      <workItem from="1557507043567" duration="15502000" />
+      <workItem from="1557564459546" duration="7897000" />
+      <workItem from="1557572557595" duration="5889000" />
+      <workItem from="1557588372641" duration="13343000" />
+      <workItem from="1557653381344" duration="7834000" />
+      <workItem from="1557667380517" duration="5364000" />
+      <workItem from="1559887082882" duration="310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="228461000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22207534" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3295964" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6817">
+          <caret line="401" column="8" lean-forward="true" selection-start-line="401" selection-start-column="8" selection-end-line="401" selection-end-column="8" />
+          <folding>
+            <element signature="e#310#3651#0" />
+            <element signature="e#3660#8077#0" />
+            <element signature="e#8092#9579#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/LemonSchool/home/Creativa/css/style.scss" />
+    <entry file="file://E:/Square Gallery/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/icomoon (8)/style.css" />
+    <entry file="file://E:/Эффекты/viewer-master/viewer-master/docs/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/owl.theme.default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="2526" column="24" lean-forward="true" selection-start-line="2526" selection-start-column="24" selection-end-line="2526" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Apollo_git/css/style.scss" />
+    <entry file="file://C:/Temp/Rar$DIa0.238/methods.js" />
+    <entry file="file://D:/Downloads/eskju-jquery-scrollflow-master/eskju-jquery-scrollflow-master/js/eskju.jquery.scrollflow.js" />
+    <entry file="file://$PROJECT_DIR$/js/owl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-556">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scrollflow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icomoon (9)/style.css" />
+    <entry file="file://$PROJECT_DIR$/css/icomoon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1194">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Эффекты/form/index.html" />
+    <entry file="file://E:/Lucid/index.html" />
+    <entry file="file://E:/Эффекты/cool-text-effect/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/js/anime.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/imagesloaded.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/LemonSchool/home/Luis Oenrique/index.html" />
+    <entry file="file://D:/LemonSchool/home/Creativa/index.html" />
+    <entry file="file://D:/Downloads/akad-master (2)/akad-master/css/mixins.scss" />
+    <entry file="file://E:/Эффекты/ui-box/index.html" />
+    <entry file="file://E:/Эффекты/ui-box/css/style.css" />
+    <entry file="file://D:/Downloads/akad-master (2)/akad-master/css/style.scss" />
+    <entry file="file://E:/Personal_Blog_Template/css/oleg_style.scss" />
+    <entry file="file://D:/Downloads/akad-master (2)/akad-master/js/scrollflow.js" />
+    <entry file="file://C:/Temp/Rar$DIa0.764/script.js" />
+    <entry file="file://C:/Temp/Rar$DIa0.925/scroll.js" />
+    <entry file="file://C:/Temp/Rar$DIa0.508/wow.min.js" />
+    <entry file="file://D:/Downloads/akad-master (2)/akad-master/js/wow.js" />
+    <entry file="file://D:/Downloads/akad-master (2)/akad-master/index.html" />
+    <entry file="file://D:/Downloads/akad-master (2)/akad-master/js/app.js" />
+    <entry file="file://D:/Downloads/akad-master (2)/akad-master/css/animate.css" />
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="3614" lean-forward="true" selection-start-line="3614" selection-end-line="3614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/src/WOW.js/WOW-master/demo.html" />
+    <entry file="file://E:/src/WOW.js/index.html" />
+    <entry file="file://E:/Personal_Blog_Template/bootstrap-4.3.1-dist/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fonts_vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#409#809#0" />
+            <element signature="e#822#1182#0" />
+            <element signature="e#1195#1587#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#310#3651#0" />
+            <element signature="e#3660#8077#0" />
+            <element signature="e#8092#9579#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
