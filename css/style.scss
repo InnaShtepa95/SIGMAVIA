@@ -8,6 +8,10 @@
   url('../fonts/Open_Sans.svg#Open_Sans') format('svg');
 }
 
+.body {
+  font-family: var(--open-sans);
+}
+
 /***********COLORS*************/
 .text-danger {
   color: #ff3d42;
@@ -21,11 +25,16 @@
   color: #102c3a;
 }
 
+.text-muted {
+  color: #c0c0c0;
+}
+
 /************************/
 
 :root {
   --white-color: #fff;
   --main-dark-color: #102c3a;
+  --gray-color: #c0c0c0;
   --open-sans: 'Open_Sans';
 
 }
@@ -62,6 +71,53 @@
 
   }
 }
-.how_we_work{
+
+.how_we_work {
   padding-top: 100px;
+  .section_title {
+    h2 {
+      font-size: 50px;
+
+    }
+    p {
+      max-width: 550px;
+      font-size: 20px;
+    }
+  }
+  .plane_progress {
+
+  }
+  .how_we_work_description {
+    max-width: 300px;
+    margin: auto;
+
+  }
+}
+
+.wireframing {
+
+  background-image: url("../images/section_bg.png");
+  background-position: center;
+  background-size: cover;
+  .frame_im {
+    img {
+      display: inline-block;
+    }
+  }
+}
+
+.flights_tickets {
+  margin-top: 100px;
+
+  .flights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+  }
+  .flight_description{
+    padding-left: 45px;
+
+  }
 }
