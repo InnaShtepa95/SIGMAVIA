@@ -99,11 +99,7 @@
   background-image: url("../images/section_bg.png");
   background-position: center;
   background-size: cover;
-  .frame_im {
-    img {
-      display: inline-block;
-    }
-  }
+  
 }
 
 .flights_tickets {
@@ -116,7 +112,7 @@
     padding-bottom: 100px;
 
   }
-  .flight_description{
+  .flight_description {
     padding-left: 45px;
 
   }

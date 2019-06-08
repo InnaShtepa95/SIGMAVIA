@@ -59,8 +59,6 @@
   background-image: url("../images/section_bg.png");
   background-position: center;
   background-size: cover; }
-  .wireframing .frame_im img {
-    display: inline-block; }
 
 .flights_tickets {
   margin-top: 100px; }
