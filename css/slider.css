@@ -183,7 +183,7 @@
   top: 5px;
   width: 7px;
   height: 12px;
-  border: solid #0f2c46;
+  border: solid var(--main-dark-color);
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);

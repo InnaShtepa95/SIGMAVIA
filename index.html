@@ -19,7 +19,12 @@
     <div class="container-fluid">
         <div class="row header_content">
             <div class="col-12 header_controls d-flex justify-content-between">
-                <a href="#"><img src="images/arrow_back.png"></a>
+                <div class="button">
+                    <a href="#">
+                        <img src="images/arrow_back.png">
+                        <span class="text-button font-weight-bold">back</span>
+                    </a>
+                </div>
                 <a href="#"><img src="images/logo_sigma.png"></a>
 
             </div>
@@ -49,6 +54,92 @@
         </div>
     </div>
 </header>
+
+
+<section class="how_we_work">
+    <div class="container">
+        <div class="row">
+            <div class="col-12  text-center section_title mb-5 ">
+                <h2 class="text-uppercase text-dark  mb-4 font-weight-bolder">
+                    How we work
+                </h2>
+                <p class="m-auto ">
+                    To ensure throughout consideration and in-depth elaboration of the design project, we apply a proven
+                    5 stage approach
+
+                </p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-12">
+                <div class="row">
+                    <div class="col-md-3 how_we_work_description text-center ">
+                        <h4 class="how_we_work_title text-uppercase text-danger-light font-weight-bold mt-4 mb-4">
+                            Research &
+                            Exploration
+                        </h4>
+
+                    </div>
+                    <div class="col-md-3 how_we_work_description text-center ">
+                        <h4 class="how_we_work_title text-uppercase text-danger-light font-weight-bold mt-4 mb-4">
+                            design
+                            brainstorming
+                        </h4>
+
+                    </div>
+                    <div class="col-md-3 how_we_work_description text-center ">
+                        <h4 class="how_we_work_title text-uppercase text-danger-light font-weight-bold mt-4 mb-4">
+                            wireframing
+                        </h4>
+
+                    </div>
+                    <div class="col-md-3 how_we_work_description text-center ">
+                        <h4 class="how_we_work_title text-uppercase text-danger-light font-weight-bold mt-4 mb-4">
+                            mockuping
+                        </h4>
+
+                    </div>
+                </div>
+            </div>
+            <div class=" col-6 col-sm-6 col-md-12">
+                <div class="row ">
+
+                    <div class="col-md-3  how_we_work_text text-center">
+                        <p class="font-italic text-muted">
+                            Analysing interfaces for
+                            similar services to detect gaps.
+                        </p>
+                    </div>
+                    <div class="col-md-3 how_we_work_text text-center">
+                        <p class="font-italic text-muted">
+                            Devising possible solutions
+                            and design concepts.
+                        </p>
+                    </div>
+                    <div class="col-md-3 how_we_work_text text-center">
+                        <p class="font-italic text-muted">
+                            Developing user experience
+                            in low-fidelity mockups.
+                        </p>
+                    </div>
+                    <div class="col-md-3 how_we_work_text text-center">
+
+                        <p class="font-italic text-muted">
+                            Detailed cross-device
+                            user interface interactions.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</section>
+
+
+<!--
+
 <section class="how_we_work">
     <div class="container ">
         <div class="row">
@@ -196,11 +287,11 @@
     </div>
     </div>
 
-</section>
+</section>-->
 <section class="flights_tickets">
     <div class="container">
         <div class="row">
-            <div class="col-4 flights text-dark">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 flights text-dark">
                 <div class="search_info ">
                     <h4 class="text-uppercase text-danger-light font-weight-bold mt-4 mb-4">
                         Intuitive flight Search
@@ -235,7 +326,7 @@
                                 <span class="checkmark"></span>
                             </label>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-5">
                             <label class="check">With stops
                                 <input type="checkbox" checked="checked">
                                 <span class="checkmark"></span>
@@ -247,13 +338,13 @@
                         <div class="col-3">
                             <label class="check check_label">Class</label>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-4">
                             <label class="check">Economy
                                 <input type="checkbox" checked="checked">
                                 <span class="checkmark"></span>
                             </label>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-5">
                             <label class="check">Business
                                 <input type="checkbox" checked="checked">
                                 <span class="checkmark"></span>
@@ -264,18 +355,14 @@
                 </div>
 
             </div>
-            <div class="offset-1 col-7 round_trip">
+            <div class="col-12 col-sm-12 col-md-7 offset-lg-1 col-lg-7 round_trip">
 
-                <img src="images/mockups/mockup_1.png" class="w-100">
+                <img src="images/mockups/mockup_1.png" class="w-100 ">
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-7 flight_description">
-
-                <img src="images/mockups/tickets_info.png" class="w-100">
-            </div>
-            <div class="offset-1 col-4">
+        <div class="row ticket_block" >
+            <div class="col-12 col-sm-12 order-md-last  offset-md-1 col-md-4">
                 <div class="search_info ">
                     <h4 class="text-uppercase text-danger-light font-weight-bold mt-4 mb-4">
                         Ticket info
@@ -289,13 +376,40 @@
                 <div class="flight_details text-uppercase ">
                 </div>
             </div>
+            <div class="col-12 col-sm-12  order-md-first  col-md-7 flight_description">
+
+                <img src="images/mockups/tickets_info.png" class="w-100">
+            </div>
+
+
         </div>
     </div>
 </section>
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 footer_nav">
+                <div class="button">
+                    <a href="#">
+                        <img src="images/arrow_back.png">
+                        <span class="text-button font-weight-bold">BACK TO PORTFOLIO</span>
+                    </a>
+                </div>
+                <div class="button">
+                    <a href="#">
+                        <span class="text-button font-weight-bold">next case</span>
+                        <img src="images/arrow_back.png">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="https://www.cssscript.com/demo/animated-customizable-range-slider-pure-javascript-rslider-js/js/rSlider.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
+<!--<script src="js/scripts.js"></script>-->
 </body>
 </html>

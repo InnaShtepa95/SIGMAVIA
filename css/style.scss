@@ -10,6 +10,12 @@
 
 .body {
   font-family: var(--open-sans);
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 /***********COLORS*************/
@@ -23,6 +29,11 @@
 
 .text-dark {
   color: #102c3a;
+
+}
+
+.text-button {
+  color: #193a4a;
 }
 
 .text-muted {
@@ -35,8 +46,15 @@
   --white-color: #fff;
   --main-dark-color: #102c3a;
   --gray-color: #c0c0c0;
+  --button-color: #193a4a;
   --open-sans: 'Open_Sans';
 
+}
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
 }
 
 .header_content {
@@ -72,7 +90,7 @@
   }
 }
 
-.how_we_work {
+/*.how_we_work {
   padding-top: 100px;
   .section_title {
     h2 {
@@ -93,27 +111,173 @@
 
   }
 }
-
+*/
 .wireframing {
-
   background-image: url("../images/section_bg.png");
   background-position: center;
   background-size: cover;
-  
+
 }
 
 .flights_tickets {
   margin-top: 100px;
-
+.ticket_block{
+padding-top: 100px;
+  padding-bottom: 100px;
+}
   .flights {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 100px;
+    @include max-screen(1200px){
+      padding-bottom: 25px;
+    }
 
   }
   .flight_description {
     padding-left: 45px;
 
+
+    @include max-screen(992px) {
+      padding-left: 0px;
+    }
+
   }
+}
+
+.footer_nav {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 65px 30px 30px;
+
+}
+
+.button {
+  &:nth-of-type(2) {
+    img {
+      transform: rotate(180deg);
+    }
+    span {
+      padding-left: 0;
+      padding-right: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  span {
+
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+
+  }
+}
+
+/****************************/
+.how_we_work {
+  padding-top: 100px;
+
+  .section_title {
+    h2 {
+      font-size: 50px;
+
+    }
+    p {
+      max-width: 550px;
+      font-size: 20px;
+      padding-bottom: 50px;
+    }
+  }
+
+  @include max-screen(768px) {
+    &:before {
+      top: -10px;
+    }
+  }
+  .how_we_work_description {
+
+    @include max-screen(768px) {
+      margin-top: 20px;
+
+    }
+    @include max-screen(463px) {
+      margin-top: 45px;
+
+    }
+
+    &:nth-child(1) {
+      &:before {
+        content: url("../images/how_we_work_plane.png");
+        clear: both;
+        position: absolute;
+        top: -50px;
+        left: 40%;
+
+      }
+      &:after {
+        content: url("../images/how_we_work_line.png");
+        clear: both;
+        position: absolute;
+        top: -43px;
+        left: 65%;
+
+      }
+    }
+
+    &:before {
+      content: url("../images/how_we_work_circle.png");
+      clear: both;
+      position: absolute;
+      top: -40px;
+      left: 47%;
+      @include max-screen(768px) {
+        top: -15px;
+
+      }
+
+    }
+    &:after {
+      content: url("../images/how_we_work_line.png");
+      clear: both;
+      position: absolute;
+      top: -43px;
+      left: 65%;
+      @include max-screen(768px) {
+        display: none;
+      }
+
+    }
+    &:nth-child(4) {
+      &:after {
+        content: "";
+        clear: both;
+      }
+
+    }
+  }
+  .how_we_work_title {
+    @include max-screen(465px) {
+      font-size: 17px;
+
+    }
+  }
+  .how_we_work_text {
+    @include max-screen(768px) {
+      margin-top: 50px;
+      &:nth-of-type(1) {
+        margin-top: 40px;
+      }
+    }
+    @include max-screen(430px) {
+      margin-top: 30px;
+
+    }
+  }
+
 }
