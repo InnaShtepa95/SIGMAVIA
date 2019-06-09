@@ -116,28 +116,162 @@
   background-image: url("../images/section_bg.png");
   background-position: center;
   background-size: cover;
+  padding: 100px 0;
+  .frame_im {
+    padding: 25px;
+    &:nth-of-type(2) {
+      &:after {
+        content: url("../images/arrow_down_40.png");
+        clear: both;
+        position: absolute;
+        bottom: -15%;
+        left: 35%;
+        @include max-screen(991px) {
+          bottom: -20%;
+        }
 
+        @include max-screen(767px) {
+          content: url("../images/arrow_left_50.png");
+          clear: both;
+          position: absolute;
+          transform: rotate(180deg);
+          bottom: 40%;
+          right: -1%;
+
+        }
+      }
+    }
+    &:nth-of-type(3) {
+      &:after {
+        content: url("../images/arrow_down_40.png");
+        clear: both;
+        position: absolute;
+        bottom: -15%;
+        left: 35%;
+        @include max-screen(991px) {
+          bottom: -20%;
+        }
+        @include max-screen(767px) {
+          bottom: -22%;
+          left:40%
+        }
+      }
+
+    }
+    &:nth-of-type(4) {
+      &:after {
+        content: url("../images/arrow_left_100.png");
+        clear: both;
+        position: absolute;
+        top: 40%;
+        left: -95px;
+        @include max-screen(1200px) {
+          left: -85px;
+
+        }
+        @include max-screen(991px) {
+          content: url("../images/arrow_left_50.png");
+          left: -50px;
+        }
+        @include max-screen(767px) {
+          content: url("../images/arrow_down_40.png");
+          top: 83%;
+          left: 40%;
+        }
+      }
+    }
+    &:nth-of-type(5) {
+      &:after {
+        content: url("../images/arrow_left_100.png");
+        clear: both;
+        position: absolute;
+        top: 40%;
+        left: -95px;
+        @include max-screen(1200px) {
+          left: -85px;
+
+        }
+        @include max-screen(991px) {
+          content: url("../images/arrow_left_50.png");
+          left: -50px;
+        }
+
+      }
+    }
+    &:nth-of-type(6) {
+
+    }
+    &:nth-of-type(7) {
+      &:after {
+        content: url("../images/arrow_left_100.png");
+        transform: rotate(180deg);
+        clear: both;
+        position: absolute;
+        top: 40%;
+        left: -95px;
+        @include max-screen(1200px) {
+          left: -85px;
+
+        }
+        @include max-screen(991px) {
+          content: url("../images/arrow_left_50.png");
+          left: -50px;
+        }
+        @include max-screen(767px) {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    &:nth-of-type(8) {
+      &:after {
+        content: url("../images/arrow_left_100.png");
+        transform: rotate(180deg);
+        clear: both;
+        position: absolute;
+        top: 40%;
+        left: -95px;
+        @include max-screen(1200px) {
+          left: -85px;
+
+        }
+        @include max-screen(991px) {
+          content: url("../images/arrow_left_50.png");
+          left: -50px;
+        }
+        @include max-screen(767px) {
+          content: url("../images/arrow_down_40.png");
+          transform: rotate(0deg);
+          top: -17%;
+          left: 40%;
+        }
+      }
+    }
+
+  }
 }
 
 .flights_tickets {
   margin-top: 100px;
-.ticket_block{
-padding-top: 100px;
-  padding-bottom: 100px;
-}
+
+  .search_info {
+    padding-bottom: 30px;
+  }
+  .ticket_block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .flights {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 100px;
-    @include max-screen(1200px){
+    @include max-screen(1200px) {
       padding-bottom: 25px;
     }
 
   }
   .flight_description {
     padding-left: 45px;
-
 
     @include max-screen(992px) {
       padding-left: 0px;
@@ -182,6 +316,7 @@ padding-top: 100px;
 /****************************/
 .how_we_work {
   padding-top: 100px;
+  margin-bottom: 100px;
 
   .section_title {
     h2 {
