@@ -1,3 +1,5 @@
+@import "slider.css";
+
 @font-face {
   font-family: 'Open_Sans';
   src: url('../fonts/Open_Sans.eot');
@@ -256,6 +258,10 @@
         margin-top: 40px;
       }
     }
+    @include max-screen(668px) {
+      margin-top: 20px;
+
+    }
     @include max-screen(430px) {
       margin-top: 40px;
 
@@ -285,7 +291,7 @@
   .wireframing_title{
     font-size: 40px;
     margin-bottom: 24px;
-    @include max-screen(430px){
+    @include max-screen(768px){
       text-align: center;
     }
 
