@@ -4,10 +4,6 @@
   src: url("../fonts/Open_Sans.eot") format("embedded-opentype"), url("../fonts/Open_Sans.woff2") format("woff2"), url("../fonts/Open_Sans.woff") format("woff"), url("../fonts/Open_Sans.ttf") format("truetype"), url("../fonts/Open_Sans.svg#Open_Sans") format("svg"); }
 .body {
   font-family: var(--open-sans); }
-  .body a {
-    text-decoration: underline; }
-    .body a:hover {
-      text-decoration: none; }
 
 /***********COLORS*************/
 .text-danger {
@@ -29,56 +25,167 @@
 :root {
   --white-color: #fff;
   --main-dark-color: #102c3a;
+  --red-color: #ff3d42;
+  --red-lighter-color: #ef4d41;
   --gray-color: #c0c0c0;
   --button-color: #193a4a;
   --open-sans: 'Open_Sans'; }
 
+/**************HEADER**********************/
 .header_content {
   background-image: url("../images/header_image.png");
   background-size: cover;
   background-position: center;
-  padding: 30px 65px 0 30px; }
+  padding: 30px 30px 0 30px; }
+  @media screen and (max-width: 360px) {
+    .header_content .header_logo img {
+      width: 100%; } }
   .header_content .header_text_info h1 {
     font-size: 60px;
     letter-spacing: 2px; }
+    @media screen and (max-width: 991px) {
+      .header_content .header_text_info h1 {
+        font-size: 40px; } }
   .header_content .header_text_info h4 {
     font-size: 30px;
     letter-spacing: 2px; }
+    @media screen and (max-width: 991px) {
+      .header_content .header_text_info h4 {
+        font-size: 20px; } }
   .header_content .header_text_info h6 {
     font-size: 25px; }
+    @media screen and (max-width: 991px) {
+      .header_content .header_text_info h6 {
+        font-size: 15px; } }
   .header_content .header_text_info h5 {
     max-width: 700px;
     font-size: 30px;
     letter-spacing: 2px;
     padding-bottom: 100px; }
+    @media screen and (max-width: 991px) {
+      .header_content .header_text_info h5 {
+        font-size: 20px; } }
 
-/*.how_we_work {
+/************NAVIGATION BUTTONS**************/
+.button:nth-of-type(2) img {
+  transform: rotate(180deg); }
+.button:nth-of-type(2) span {
+  padding-left: 0;
+  padding-right: 10px; }
+.button a {
+  text-decoration: none; }
+.button span {
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 17px; }
+  @media screen and (max-width: 430px) {
+    .button span {
+      display: none; } }
+
+/************HOW TO WE WORK SECTION ****************/
+.how_we_work {
   padding-top: 100px;
-  .section_title {
-    h2 {
-      font-size: 50px;
+  margin-bottom: 100px; }
+  .how_we_work .section_title h2 {
+    font-size: 40px; }
+  .how_we_work .section_title p {
+    max-width: 550px;
+    font-size: 20px;
+    padding-bottom: 50px; }
+  @media screen and (max-width: 768px) {
+    .how_we_work:before {
+      top: -10px; } }
+  @media screen and (max-width: 768px) {
+    .how_we_work .how_we_work_description {
+      margin-top: 20px; } }
+  @media screen and (max-width: 463px) {
+    .how_we_work .how_we_work_description {
+      margin-top: 45px; } }
+  @media screen and (max-width: 380px) {
+    .how_we_work .how_we_work_description {
+      margin-top: 55px; } }
+  .how_we_work .how_we_work_description:nth-child(1):before {
+    content: url("../images/how_we_work_plane.png");
+    clear: both;
+    position: absolute;
+    top: -50px;
+    left: 40%; }
+    @media screen and (max-width: 430px) {
+      .how_we_work .how_we_work_description:nth-child(1):before {
+        transform: rotate(90deg); } }
+  .how_we_work .how_we_work_description:nth-child(1):after {
+    content: url("../images/how_we_work_line.png");
+    clear: both;
+    position: absolute;
+    top: -43px;
+    left: 65%; }
+    @media screen and (max-width: 1200px) {
+      .how_we_work .how_we_work_description:nth-child(1):after {
+        left: 61%; } }
+  .how_we_work .how_we_work_description:before {
+    content: url("../images/how_we_work_circle.png");
+    clear: both;
+    position: absolute;
+    top: -40px;
+    left: 47%; }
+    @media screen and (max-width: 768px) {
+      .how_we_work .how_we_work_description:before {
+        top: -30px; } }
+    @media screen and (max-width: 426px) {
+      .how_we_work .how_we_work_description:before {
+        top: -10px; } }
+  .how_we_work .how_we_work_description:after {
+    content: url("../images/how_we_work_line.png");
+    clear: both;
+    position: absolute;
+    top: -43px;
+    left: 65%; }
+    @media screen and (max-width: 1200px) {
+      .how_we_work .how_we_work_description:after {
+        left: 59%; } }
+    @media screen and (max-width: 768px) {
+      .how_we_work .how_we_work_description:after {
+        display: none; } }
+  .how_we_work .how_we_work_description:nth-child(4):after {
+    content: "";
+    clear: both; }
+  @media screen and (max-width: 768px) {
+    .how_we_work .how_we_work_title {
+      font-size: 18px;
+      margin-top: 20px; } }
+  @media screen and (max-width: 465px) {
+    .how_we_work .how_we_work_title {
+      font-size: 17px; } }
+  @media screen and (max-width: 768px) {
+    .how_we_work .how_we_work_text {
+      margin-top: 50px; }
+      .how_we_work .how_we_work_text:nth-of-type(1) {
+        margin-top: 40px; } }
+  @media screen and (max-width: 430px) {
+    .how_we_work .how_we_work_text {
+      margin-top: 40px; } }
+  @media screen and (max-width: 380px) {
+    .how_we_work .how_we_work_text {
+      margin-top: 50px; } }
+  @media screen and (max-width: 330px) {
+    .how_we_work .how_we_work_text {
+      margin-top: 35px; } }
 
-    }
-    p {
-      max-width: 550px;
-      font-size: 20px;
-    }
-  }
-  .plane_progress {
-
-  }
-  .how_we_work_description {
-    max-width: 300px;
-    margin: auto;
-
-  }
-}
-*/
+/************ WIREFRAMING SECTION*******************/
 .wireframing {
   background-image: url("../images/section_bg.png");
   background-position: center;
   background-size: cover;
   padding: 100px 0; }
+  .wireframing .wireframing_title {
+    font-size: 40px;
+    margin-bottom: 24px; }
+    @media screen and (max-width: 430px) {
+      .wireframing .wireframing_title {
+        text-align: center; } }
+  .wireframing .wireframing_title_description {
+    max-width: 500px;
+    font-size: 20px; }
   .wireframing .frame_im {
     padding: 25px; }
     .wireframing .frame_im:nth-of-type(2):after {
@@ -89,7 +196,7 @@
       left: 35%; }
       @media screen and (max-width: 991px) {
         .wireframing .frame_im:nth-of-type(2):after {
-          bottom: -20%; } }
+          bottom: 0%; } }
       @media screen and (max-width: 767px) {
         .wireframing .frame_im:nth-of-type(2):after {
           content: url("../images/arrow_left_50.png");
@@ -180,10 +287,14 @@
           top: -17%;
           left: 40%; } }
 
+/************TICKETS SECTION*******************/
 .flights_tickets {
   margin-top: 100px; }
   .flights_tickets .search_info {
-    padding-bottom: 30px; }
+    padding-bottom: 40px; }
+    @media screen and (max-width: 668px) {
+      .flights_tickets .search_info {
+        text-align: center; } }
   .flights_tickets .ticket_block {
     padding-top: 100px;
     padding-bottom: 100px; }
@@ -199,87 +310,12 @@
     padding-left: 45px; }
     @media screen and (max-width: 992px) {
       .flights_tickets .flight_description {
-        padding-left: 0px; } }
+        padding-left: 15px; } }
 
+/************FOOTER*******************/
 .footer_nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px 65px 30px 30px; }
-
-.button:nth-of-type(2) img {
-  transform: rotate(180deg); }
-.button:nth-of-type(2) span {
-  padding-left: 0;
-  padding-right: 10px; }
-.button a {
-  text-decoration: none; }
-.button span {
-  padding-left: 10px;
-  text-transform: uppercase;
-  font-size: 17px; }
-
-/****************************/
-.how_we_work {
-  padding-top: 100px;
-  margin-bottom: 100px; }
-  .how_we_work .section_title h2 {
-    font-size: 50px; }
-  .how_we_work .section_title p {
-    max-width: 550px;
-    font-size: 20px;
-    padding-bottom: 50px; }
-  @media screen and (max-width: 768px) {
-    .how_we_work:before {
-      top: -10px; } }
-  @media screen and (max-width: 768px) {
-    .how_we_work .how_we_work_description {
-      margin-top: 20px; } }
-  @media screen and (max-width: 463px) {
-    .how_we_work .how_we_work_description {
-      margin-top: 45px; } }
-  .how_we_work .how_we_work_description:nth-child(1):before {
-    content: url("../images/how_we_work_plane.png");
-    clear: both;
-    position: absolute;
-    top: -50px;
-    left: 40%; }
-  .how_we_work .how_we_work_description:nth-child(1):after {
-    content: url("../images/how_we_work_line.png");
-    clear: both;
-    position: absolute;
-    top: -43px;
-    left: 65%; }
-  .how_we_work .how_we_work_description:before {
-    content: url("../images/how_we_work_circle.png");
-    clear: both;
-    position: absolute;
-    top: -40px;
-    left: 47%; }
-    @media screen and (max-width: 768px) {
-      .how_we_work .how_we_work_description:before {
-        top: -15px; } }
-  .how_we_work .how_we_work_description:after {
-    content: url("../images/how_we_work_line.png");
-    clear: both;
-    position: absolute;
-    top: -43px;
-    left: 65%; }
-    @media screen and (max-width: 768px) {
-      .how_we_work .how_we_work_description:after {
-        display: none; } }
-  .how_we_work .how_we_work_description:nth-child(4):after {
-    content: "";
-    clear: both; }
-  @media screen and (max-width: 465px) {
-    .how_we_work .how_we_work_title {
-      font-size: 17px; } }
-  @media screen and (max-width: 768px) {
-    .how_we_work .how_we_work_text {
-      margin-top: 50px; }
-      .how_we_work .how_we_work_text:nth-of-type(1) {
-        margin-top: 40px; } }
-  @media screen and (max-width: 430px) {
-    .how_we_work .how_we_work_text {
-      margin-top: 30px; } }
+  padding: 30px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,12 +10,7 @@
 
 .body {
   font-family: var(--open-sans);
-  a {
-    text-decoration: underline;
-    &:hover {
-      text-decoration: none;
-    }
-  }
+
 }
 
 /***********COLORS*************/
@@ -45,6 +40,8 @@
 :root {
   --white-color: #fff;
   --main-dark-color: #102c3a;
+  --red-color: #ff3d42;
+  --red-lighter-color: #ef4d41;
   --gray-color: #c0c0c0;
   --button-color: #193a4a;
   --open-sans: 'Open_Sans';
@@ -57,26 +54,41 @@
   }
 }
 
+/**************HEADER**********************/
 .header_content {
   background-image: url("../images/header_image.png");
   background-size: cover;
   background-position: center;
-  padding: 30px 65px 0 30px;
-  .header_controls {
+  padding: 30px 30px 0 30px;
+  .header_logo{
+    img{
+      @include max-screen(360px){
+        width: 100%;
+      }
+    }
 
   }
   .header_text_info {
     h1 {
       font-size: 60px;
       letter-spacing: 2px;
+      @include max-screen(991px){
+        font-size: 40px;
+      }
     }
     h4 {
       font-size: 30px;
       letter-spacing: 2px;
+      @include max-screen(991px){
+        font-size: 20px;
+      }
     }
 
     h6 {
       font-size: 25px;
+      @include max-screen(991px){
+        font-size: 15px;
+      }
     }
     h5 {
       max-width: 700px;
@@ -84,39 +96,204 @@
       font-size: 30px;
       letter-spacing: 2px;
       padding-bottom: 100px;
+      @include max-screen(991px){
+        font-size: 20px;
+      }
 
     }
 
   }
 }
 
-/*.how_we_work {
+/************NAVIGATION BUTTONS**************/
+.button {
+  &:nth-of-type(2) {
+    img {
+      transform: rotate(180deg);
+    }
+    span {
+      padding-left: 0;
+      padding-right: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  span {
+
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    @include max-screen(430px) {
+
+      display: none;
+
+    }
+  }
+}
+
+/************HOW TO WE WORK SECTION ****************/
+.how_we_work {
   padding-top: 100px;
+  margin-bottom: 100px;
+
   .section_title {
     h2 {
-      font-size: 50px;
+      font-size: 40px;
 
     }
     p {
       max-width: 550px;
       font-size: 20px;
+      padding-bottom: 50px;
     }
   }
-  .plane_progress {
 
+  @include max-screen(768px) {
+    &:before {
+      top: -10px;
+    }
   }
   .how_we_work_description {
-    max-width: 300px;
-    margin: auto;
+
+    @include max-screen(768px) {
+
+      margin-top: 20px;
+
+    }
+    @include max-screen(463px) {
+      margin-top: 45px;
+
+    }
+    @include max-screen(380px) {
+
+      margin-top: 55px;
+
+    }
+
+    &:nth-child(1) {
+      &:before {
+        content: url("../images/how_we_work_plane.png");
+        clear: both;
+        position: absolute;
+        top: -50px;
+        left: 40%;
+        @include max-screen(430px) {
+          transform: rotate(90deg);
+
+        }
+
+      }
+      &:after {
+        content: url("../images/how_we_work_line.png");
+        clear: both;
+        position: absolute;
+        top: -43px;
+        left: 65%;
+        @include max-screen(1200px) {
+          left: 61%;
+        }
+      }
+    }
+
+    &:before {
+      content: url("../images/how_we_work_circle.png");
+      clear: both;
+      position: absolute;
+      top: -40px;
+      left: 47%;
+      @include max-screen(768px) {
+        top: -30px;
+
+      }
+      @include max-screen(426px) {
+        top: -10px;
+
+      }
+
+    }
+    &:after {
+      content: url("../images/how_we_work_line.png");
+      clear: both;
+      position: absolute;
+      top: -43px;
+      left: 65%;
+      @include max-screen(1200px) {
+        left: 59%;
+      }
+      @include max-screen(768px) {
+        display: none;
+      }
+
+    }
+    &:nth-child(4) {
+      &:after {
+        content: "";
+        clear: both;
+      }
+
+    }
+  }
+  .how_we_work_title {
+    @include max-screen(768px) {
+      font-size: 18px;
+      margin-top: 20px;
+
+    }
+    @include max-screen(465px) {
+      font-size: 17px;
+
+    }
 
   }
+  .how_we_work_text {
+    @include max-screen(768px) {
+      margin-top: 50px;
+      &:nth-of-type(1) {
+        margin-top: 40px;
+      }
+    }
+    @include max-screen(430px) {
+      margin-top: 40px;
+
+    }
+    @include max-screen(380px) {
+
+      margin-top: 50px;
+
+    }
+    @include max-screen(330px) {
+
+      margin-top: 35px;
+
+    }
+  }
+
 }
-*/
+
+/************ WIREFRAMING SECTION*******************/
 .wireframing {
   background-image: url("../images/section_bg.png");
   background-position: center;
   background-size: cover;
   padding: 100px 0;
+
+
+  .wireframing_title{
+    font-size: 40px;
+    margin-bottom: 24px;
+    @include max-screen(430px){
+      text-align: center;
+    }
+
+  }
+  .wireframing_title_description {
+    max-width: 500px;
+    font-size: 20px;
+  }
   .frame_im {
     padding: 25px;
     &:nth-of-type(2) {
@@ -127,7 +304,7 @@
         bottom: -15%;
         left: 35%;
         @include max-screen(991px) {
-          bottom: -20%;
+          bottom: 0%;
         }
 
         @include max-screen(767px) {
@@ -153,7 +330,7 @@
         }
         @include max-screen(767px) {
           bottom: -22%;
-          left:40%
+          left: 40%
         }
       }
 
@@ -250,11 +427,15 @@
   }
 }
 
+/************TICKETS SECTION*******************/
 .flights_tickets {
   margin-top: 100px;
 
   .search_info {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    @include max-screen(668px) {
+      text-align: center;
+    }
   }
   .ticket_block {
     padding-top: 100px;
@@ -274,145 +455,20 @@
     padding-left: 45px;
 
     @include max-screen(992px) {
-      padding-left: 0px;
+      padding-left: 15px;
     }
 
   }
 }
 
+/************FOOTER*******************/
 .footer_nav {
 
   display: flex;
   justify-content: space-between;
-  padding: 30px 65px 30px 30px;
+  padding: 30px;
 
 }
 
-.button {
-  &:nth-of-type(2) {
-    img {
-      transform: rotate(180deg);
-    }
-    span {
-      padding-left: 0;
-      padding-right: 10px;
-    }
-  }
 
-  a {
-    text-decoration: none;
 
-  }
-
-  span {
-
-    padding-left: 10px;
-    text-transform: uppercase;
-    font-size: 17px;
-
-  }
-}
-
-/****************************/
-.how_we_work {
-  padding-top: 100px;
-  margin-bottom: 100px;
-
-  .section_title {
-    h2 {
-      font-size: 50px;
-
-    }
-    p {
-      max-width: 550px;
-      font-size: 20px;
-      padding-bottom: 50px;
-    }
-  }
-
-  @include max-screen(768px) {
-    &:before {
-      top: -10px;
-    }
-  }
-  .how_we_work_description {
-
-    @include max-screen(768px) {
-      margin-top: 20px;
-
-    }
-    @include max-screen(463px) {
-      margin-top: 45px;
-
-    }
-
-    &:nth-child(1) {
-      &:before {
-        content: url("../images/how_we_work_plane.png");
-        clear: both;
-        position: absolute;
-        top: -50px;
-        left: 40%;
-
-      }
-      &:after {
-        content: url("../images/how_we_work_line.png");
-        clear: both;
-        position: absolute;
-        top: -43px;
-        left: 65%;
-
-      }
-    }
-
-    &:before {
-      content: url("../images/how_we_work_circle.png");
-      clear: both;
-      position: absolute;
-      top: -40px;
-      left: 47%;
-      @include max-screen(768px) {
-        top: -15px;
-
-      }
-
-    }
-    &:after {
-      content: url("../images/how_we_work_line.png");
-      clear: both;
-      position: absolute;
-      top: -43px;
-      left: 65%;
-      @include max-screen(768px) {
-        display: none;
-      }
-
-    }
-    &:nth-child(4) {
-      &:after {
-        content: "";
-        clear: both;
-      }
-
-    }
-  }
-  .how_we_work_title {
-    @include max-screen(465px) {
-      font-size: 17px;
-
-    }
-  }
-  .how_we_work_text {
-    @include max-screen(768px) {
-      margin-top: 50px;
-      &:nth-of-type(1) {
-        margin-top: 40px;
-      }
-    }
-    @include max-screen(430px) {
-      margin-top: 30px;
-
-    }
-  }
-
-}
